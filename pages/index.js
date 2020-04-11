@@ -25,6 +25,18 @@ export async function getStaticProps() {
         'postNumber',
     ]);
 
+    allPosts.sort(function (a, b) {
+        if (a.postNumber < b.postNumber) {
+            return 1;
+        }
+
+        if (a.postNumber > b.postNumber) {
+            return -1;
+        }
+
+        return 0;
+    });
+
     return {
         props: { allPosts },
     };
