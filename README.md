@@ -22,6 +22,8 @@ To run the site locally just do:
 `npm run dev`
 
 The site is hosted with Zeit Now and can be reached at:
-https://evans-houseplants-lmaf02wv0.now.sh/
+[evanshouseplants.com](https://www.evanshouseplants.com)
+
+This project was also covered in the [post "Hello NextJS" here](https://rhythmandbinary.com/2020/04/11/hello-nextjs/).
 
 If you have questions, open an issue or feel free to reach out to me at [andrewevans.dev](https://www.andrewevans.dev)
