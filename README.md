@@ -21,4 +21,7 @@ The site has posts that appear on the homepage, and then an "About" page that li
 To run the site locally just do:
 `npm run dev`
 
+The site is hosted with Zeit Now and can be reached at:
+https://evans-houseplants-lmaf02wv0.now.sh/
+
 If you have questions, open an issue or feel free to reach out to me at [andrewevans.dev](https://www.andrewevans.dev)
