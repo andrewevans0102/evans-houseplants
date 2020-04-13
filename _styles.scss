@@ -171,13 +171,14 @@ body {
         justify-content: center;
         align-items: center;
         max-width: 800px;
+        margin: 20px;
     }
 
     &__image--container {
         display: flex;
         align-items: center;
         max-width: 400px;
-        height: 400px;
+        height: 100%;
 
         @media (max-width: $mobile-query) {
             height: 100%;

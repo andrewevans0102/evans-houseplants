@@ -1,5 +1,6 @@
 import Header from '../components/Header';
 import { getAllPosts } from '../lib/api';
+import markdownToHtml from '../lib/markdownToHtml';
 import Post from '../components/Post';
 
 const HomePage = ({ allPosts }) => (
@@ -35,6 +36,11 @@ export async function getStaticProps() {
         }
 
         return 0;
+    });
+
+    allPosts.forEach(async (post) => {
+        const originalContent = post.content;
+        post.content = await markdownToHtml(originalContent);
     });
 
     return {
